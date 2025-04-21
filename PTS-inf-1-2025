@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biodata Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      background: white;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .biodata {
+      margin-top: 20px;
+    }
+    .biodata p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Biodata Saya</h1>
+    <div class="biodata">
+      <p><span class="label">Nama:</span> John Doe</p>
+      <p><span class="label">Tempat, Tanggal Lahir:</span> Jakarta, 1 Januari 2000</p>
+      <p><span class="label">Alamat:</span> Jl. Mawar No. 123, Jakarta</p>
+      <p><span class="label">Email:</span> johndoe@email.com</p>
+      <p><span class="label">Telepon:</span> 0812-3456-7890</p>
+      <p><span class="label">Hobi:</span> Membaca, Menulis, Coding</p>
+    </div>
+  </div>
+</body>
+</html>
